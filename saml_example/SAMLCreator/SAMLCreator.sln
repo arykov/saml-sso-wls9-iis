@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAMLCreator", "SAMLCreator.csproj", "{2BEFB62F-0716-4FD8-BD9D-A95FC2200779}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "c:\saml_example\SAMLdotNet\", "..\SAMLdotNet\", "{71AC3141-11BE-4B12-A6A8-478516C4216F}"
+	ProjectSection(WebsiteProperties) = preProject
+		ProjectReferences = "{2BEFB62F-0716-4FD8-BD9D-A95FC2200779}|SAMLCreator.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/SAMLdotNet"
+		Debug.AspNetCompiler.PhysicalPath = "..\SAMLdotNet\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SAMLdotNet\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SAMLdotNet"
+		Release.AspNetCompiler.PhysicalPath = "..\SAMLdotNet\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SAMLdotNet\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "5925"
+		VWDDynamicPort = "false"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BEFB62F-0716-4FD8-BD9D-A95FC2200779}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{2BEFB62F-0716-4FD8-BD9D-A95FC2200779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BEFB62F-0716-4FD8-BD9D-A95FC2200779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BEFB62F-0716-4FD8-BD9D-A95FC2200779}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2BEFB62F-0716-4FD8-BD9D-A95FC2200779}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2BEFB62F-0716-4FD8-BD9D-A95FC2200779}.Release|.NET.ActiveCfg = Release|Any CPU
+		{2BEFB62F-0716-4FD8-BD9D-A95FC2200779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BEFB62F-0716-4FD8-BD9D-A95FC2200779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BEFB62F-0716-4FD8-BD9D-A95FC2200779}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2BEFB62F-0716-4FD8-BD9D-A95FC2200779}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{71AC3141-11BE-4B12-A6A8-478516C4216F}.Debug|.NET.ActiveCfg = Debug|.NET
+		{71AC3141-11BE-4B12-A6A8-478516C4216F}.Debug|.NET.Build.0 = Debug|.NET
+		{71AC3141-11BE-4B12-A6A8-478516C4216F}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{71AC3141-11BE-4B12-A6A8-478516C4216F}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{71AC3141-11BE-4B12-A6A8-478516C4216F}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{71AC3141-11BE-4B12-A6A8-478516C4216F}.Release|.NET.ActiveCfg = Debug|.NET
+		{71AC3141-11BE-4B12-A6A8-478516C4216F}.Release|.NET.Build.0 = Debug|.NET
+		{71AC3141-11BE-4B12-A6A8-478516C4216F}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{71AC3141-11BE-4B12-A6A8-478516C4216F}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{71AC3141-11BE-4B12-A6A8-478516C4216F}.Release|Mixed Platforms.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
