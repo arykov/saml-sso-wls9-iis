@@ -475,7 +475,7 @@ environments.</p>
 
 <h3>Download</h3>
 <ul>
-<li><a href="saml_example.zip">Sample code and configuration for this tutorial</a></li>
+<li><a href="saml_example">Sample code and configuration for this tutorial</a></li>
 </ul>
 
 <h3>Summary</h3>
